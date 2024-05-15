@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <!-- 更多全局配置参考：https://www.xuanmo.xin/-/dl-ui/comp-common/config-provider -->
-  <d-config-provider client-type="PC" label-width="80px">
+  <d-config-provider client-type="PC" label-width="80px" :round="false">
     <div>
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
